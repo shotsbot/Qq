@@ -1,0 +1,40 @@
+{
+  "project": {
+    "name": "VPS Control Terminal",
+    "description": "Premium VPS Control Panel for Ubuntu. Features secure authentication, file explorer, shell terminal with quick-command bar, backups, and DevOps AI advisor.",
+    "version": "1.1.0",
+    "tech_stack": {
+      "framework": "Next.js 15 (App Router)",
+      "language": "TypeScript",
+      "styling": "Tailwind CSS v4 (Mobile-optimized Responsive Layout)",
+      "animations": "Framer Motion (motion/react)",
+      "icons": "Lucide React"
+    }
+  },
+  "cli_configuration": {
+    "platform": "Gemini CLI / Codex Companion",
+    "export_date": "2026-05-26",
+    "recommended_commands": {
+      "install_dependencies": "npm install",
+      "start_dev": "npm run dev",
+      "build_project": "npm run build",
+      "lint_check": "npm run lint"
+    },
+    "environment_variables": [
+      "GEMINI_API_KEY"
+    ]
+  },
+  "modules_mapping": {
+    "dashboard": "Real-time system health telemetry monitoring (CPU, RAM, Disk speed, network logs).",
+    "filesystem": "Interactive navigation of `./sandbox_vps/` directory with wildcard search, extension filters, and in-file grep scanning.",
+    "terminal": "Web-based responsive SSH emulator shell with integrated standard quick commands (ls -la, ps aux, git status, pwd, help, systemctl, neofetch).",
+    "git": "Git companion utility with status tracking, branch logging, and commit visualizer.",
+    "backups": "System snapshot generator, automated script backups, and point-in-time state manager.",
+    "devops_advisor": "Developer helper driven by Gemini-3.5-flash server-side API to troubleshoot Ubuntu servers, craft custom bash logs, or design Nginx configs."
+  },
+  "ux_features": {
+    "mobile_optimization": "Includes sliding responsive drawer menu, touch-accessible buttons, breadcrumbs handling, and visual grid collapsing for viewports of all sizes.",
+    "visual_theme": "Cosmic Slate Twilight style (high contrast dark mode supported by smooth off-white/charcoal dynamic toggle)."
+  },
+  "instructions_for_cli_reconstruction": "Use this session structure to continue development of the server control panel. Retain high density information grids without cluttering page margins, use proper typescript bindings, avoid custom SVG imports by relying strictly on Lucide-React icon arrays, and maintain all Gemini prompt logic safely behind server-side Next.js route handlers."
+}

@@ -1,0 +1,10 @@
+{
+  "name": "VPS Control Terminal",
+  "description": "Premium VPS Control Panel for Ubuntu. Features secure authentication, file explorer, shell terminal, backups, and DevOps AI advisor.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
